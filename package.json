@@ -1,0 +1,33 @@
+{
+	"name": "hybridagrume",
+	"version": "1.0.0",
+	"description": "La société Hybrid'agrume vous contacte pour son projet d'application. Il s'agit d'une entreprise de biochimie qui travaille dans le croisement d'espèces de fruit, spécialisée dans les agrumes.",
+	"main": "src/server.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NaorimSenchai/hybridagrume.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/NaorimSenchai/hybridagrume/issues"
+	},
+	"homepage": "https://github.com/NaorimSenchai/hybridagrume#readme",
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"knex": "^1.0.3",
+		"nodemon": "^2.0.15",
+		"pg": "^8.7.3"
+	},
+	"devDependencies": {
+		"jest": "^27.5.1"
+	}
+}
